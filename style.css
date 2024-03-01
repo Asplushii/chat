@@ -1,0 +1,34 @@
+body {
+    font-family: Arial, sans-serif;
+}
+
+#chat-container {
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+#messages {
+    border: 1px solid #ccc;
+    padding: 10px;
+    margin-bottom: 10px;
+    height: 300px;
+    overflow-y: auto;
+}
+
+.nickname {
+    font-weight: bold;
+    margin-right: 5px;
+}
+
+.message-content {
+    display: inline;
+}
+
+#nickname-input,
+#message-input {
+    margin-bottom: 10px;
+}
+
+button {
+    padding: 5px 10px;
+}
